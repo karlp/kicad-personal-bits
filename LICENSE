@@ -1,3 +1,4 @@
+The symbols/footprints that are my work are:
 Licensed under _your_ choice the following SPDX licenses,
 whichever makes your integration job easier.
 * Apache-2.0
@@ -9,3 +10,5 @@ whichever makes your integration job easier.
 * WTFPL
 * Zlib
 * CERN-OHL-P
+
+3d models are not necessarily licensed at all, beyond personal use, you should check the git logs of them before use to see their sources.
