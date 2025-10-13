@@ -598,7 +598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
+		(property "Footprint" "Package_QFP:LQFP-32_5x5mm_P0.5mm"
 			(at 0.254 14.478 0)
 			(effects
 				(font
