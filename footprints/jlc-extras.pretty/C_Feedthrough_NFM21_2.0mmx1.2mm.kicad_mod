@@ -118,4 +118,15 @@
 		(uuid "59ed9678-f0b1-4c66-96e9-967ce79b7cb6")
 	)
 	(embedded_fonts no)
+	(model "../../3d/C_Feedthrough_Murata_NFM21PCxx.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
