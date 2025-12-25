@@ -2118,7 +2118,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "D*DO?41*"
+		(property "ki_fp_filters" "D*SMA*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2958,7 +2958,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5617,7 +5617,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT?23*"
+		(property "ki_fp_filters" "*DFN-10*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7346,7 +7346,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "D*DO?41*"
+		(property "ki_fp_filters" "D*SMA*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8360,7 +8360,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8408,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8546,7 +8546,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8594,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8639,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8687,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8732,7 +8732,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8780,7 +8780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8825,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8873,7 +8873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8918,7 +8918,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8966,7 +8966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
+		(property "Description" "Resistor, 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "R_0603*"
+		(property "ki_fp_filters" "R_0402*"
 			(at 0 0 0)
 			(effects
 				(font
