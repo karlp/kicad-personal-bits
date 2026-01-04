@@ -54,6 +54,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1,2")
 	(fp_line
 		(start -4.6552 -1.5)
 		(end -6 -2.5)
