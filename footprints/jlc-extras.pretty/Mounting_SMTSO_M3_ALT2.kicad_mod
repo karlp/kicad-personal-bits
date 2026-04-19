@@ -1,0 +1,161 @@
+(footprint "Mounting_SMTSO_M3_ALT2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT PCB Nut, M3 size")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7b06493-5dfe-4bfa-9e86-ff2d34904a9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMTSO_M3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "153d8f4b-813f-4f5e-9026-c34181a9d3b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf476c47-2ced-4998-8352-96ca61357ee0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMT Nut M3 size"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3db1986e-dc48-4c53-812e-39328869b41b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start -2.55 -0.49)
+		(mid -1.840041 -1.83217)
+		(end -0.500927 -2.547876)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "ebe3df9b-6425-417f-9196-8a1eb8f621b2")
+	)
+	(fp_arc
+		(start -0.49 2.55)
+		(mid -1.83217 1.840041)
+		(end -2.547876 0.500927)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "24d6d94b-267d-4790-9099-c116b77dee06")
+	)
+	(fp_arc
+		(start 0.49 -2.55)
+		(mid 1.83217 -1.840041)
+		(end 2.547876 -0.500927)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "ade4baa7-d90a-4121-9858-4a3791d41d7d")
+	)
+	(fp_arc
+		(start 2.55 0.49)
+		(mid 1.840043 1.832169)
+		(end 0.500931 2.547875)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "4e62ad15-d1c7-4f1a-8e1a-1e70ef04f664")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00b478ee-bea9-40d9-9cea-97cdb3d65e33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4.22 4.22)
+		(drill 4.22)
+		(layers)
+		(thermal_bridge_angle 90)
+		(uuid "a9efb564-9cec-4cb5-863e-5c4c58600861")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(layers "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "5f403f98-df13-40da-907d-d5923fde71d9")
+	)
+	(pad "1" smd custom
+		(at 2.61 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -2.61 0)
+				(end 0 0)
+				(width 1)
+				(fill no)
+			)
+		)
+		(uuid "5e4a03b9-c195-4270-a70b-6f1f146fca40")
+	)
+	(embedded_fonts no)
+	(model "/home/karlp/src/kicad-personal-bits/3d/Mounting_PEM_SMTSO-M3-3ET.step"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
+)
