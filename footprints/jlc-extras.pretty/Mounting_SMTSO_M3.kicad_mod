@@ -111,20 +111,20 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 6.2 6.2)
-		(drill 4.22)
-		(layers)
-		(thermal_bridge_angle 90)
-		(uuid "96724f44-3f5f-49b7-9fbc-10f2c72ba180")
-	)
 	(pad "" smd circle
 		(at 0 0)
 		(size 6.2 6.2)
 		(layers "F.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "4625f9b4-ff8d-4d93-900d-93f9c1d7fe44")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.22)
+		(layers "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "96724f44-3f5f-49b7-9fbc-10f2c72ba180")
 	)
 	(pad "1" smd circle
 		(at 0 0)
@@ -134,4 +134,15 @@
 		(uuid "035a9f3e-e9de-4220-acd7-52f39946ddac")
 	)
 	(embedded_fonts no)
+	(model "/home/karlp/src/kicad-personal-bits/3d/Mounting_PEM_SMTSO-M3-3ET.step"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
 )
