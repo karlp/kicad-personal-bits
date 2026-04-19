@@ -5896,17 +5896,6 @@
 				)
 			)
 			(circle
-				(center -0.508 4.572)
-				(radius 0.0001)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
 				(center -0.508 -7.112)
 				(radius 0.0001)
 				(stroke
@@ -5918,7 +5907,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 0 4.572)
 				(radius 0.0001)
 				(stroke
 					(width 0.508)
@@ -5929,7 +5918,7 @@
 				)
 			)
 			(circle
-				(center 0.508 4.572)
+				(center 0 -2.54)
 				(radius 0.0001)
 				(stroke
 					(width 0.508)
@@ -6167,18 +6156,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.08) (xy 0.508 4.572)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0.508 4.064) (xy -0.508 4.064)
 				)
 				(stroke
@@ -6288,9 +6265,8 @@
 		)
 		(symbol "Protection_H5VU25UC_1_0"
 			(pin free line
-				(at 1.27 0 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -6307,9 +6283,8 @@
 				)
 			)
 			(pin free line
-				(at 1.27 -0.1778 180)
+				(at 7.62 0 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -6326,9 +6301,8 @@
 				)
 			)
 			(pin free line
-				(at 1.27 -0.127 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -6345,9 +6319,8 @@
 				)
 			)
 			(pin free line
-				(at 1.27 -0.254 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
-				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -6414,7 +6387,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 -7.112) (xy 0 -6.604) (xy 0 4.064) (xy -0.508 4.572)
+					(xy 0.508 -7.112) (xy 0 -6.604) (xy 0 4.064) (xy 0 4.572)
 				)
 				(stroke
 					(width 0)
@@ -6460,7 +6433,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
@@ -6515,9 +6488,10 @@
 				)
 			)
 			(pin passive line
-				(at 0 7.62 270)
+				(at 0 -10.16 90)
 				(length 2.54)
-				(name "VBUS"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
